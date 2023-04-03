@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "tinacms dev -c \"next dev\"",
-    "build": "tinacms build && next build",
-    "start": "tinacms build && next start",
+    "dev": "tinacms dev -c \"gatsby develop\"",
+    "build": "tinacms build && gatsby build",
+    "start": "npm run dev",
     "lint": "next lint"
   },
   "dependencies": {
@@ -14,8 +14,8 @@
     "tinacms": "^1.4.3",
     "gatsby": "4.25.5",
     "gatsby-plugin-manifest": "^4.24.0",
-    "gatsby-source-filesystem": "^4.24.0"
-
+    "gatsby-source-filesystem": "^4.24.0",
+    "gatsby-plugin-mdx": "4.3.0"
   },
   "devDependencies": {
     "@tinacms/cli": "^1.5.2",

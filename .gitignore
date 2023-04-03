@@ -12,6 +12,11 @@
 /.next/
 /out/
 
+# gatsby
+# gatsby files
+.cache/
+public
+
 # production
 /build
 
